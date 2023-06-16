@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #e46c3d;
+  }
+
+  #cabecalho{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #jogo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  #rodape{
+    display: flex;
+    justify-content: center;
+  }
