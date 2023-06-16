@@ -7,7 +7,6 @@ class Player{
       this.vel = 6;
       this.posX = 18;
       this.posY = 377;
-      this.vida = 1;
       this.yInicial = this.posY;
       this.yFinal = this.posY + this.altura;
       this.xInicial = this.posX;
@@ -26,12 +25,6 @@ class Player{
         player.posY += player.vel; 
       }
 
-      if(player.vida == 1){
-        pontos += 1;
-      }
-      else{
-        pontos = 0;
-      }
 
       this.yInicial = this.posY;
       this.yFinal = this.posY + this.altura;

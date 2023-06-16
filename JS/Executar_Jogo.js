@@ -2,7 +2,11 @@ function executarJogo(){
     fundo.mova();
     player.mova();
     cacto.mova();
-    player.vida = 1;
+    conta ++
+    if (conta == 30) {
+        pontos ++
+        conta = 0
+    }
     if(player.xInicial < cacto.xFinal &&
         player.xFinal > cacto.xInicial &&
         player.yInicial < cacto.yFinal &&

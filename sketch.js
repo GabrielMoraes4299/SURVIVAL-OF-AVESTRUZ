@@ -11,16 +11,19 @@ var status_jogo = "INICIO";
 //variável que armazena os pontos do jogo
 var pontos = 0;
 
+var conta = 0;
+
 //função que carrega as varíaveis com suas determinadas classes
 function preload() {
   player = new Player();
   fundo = new Fundo();
-  cacto = new Obstaculo();
+  cacto = new Obstaculo(); 
 }
 
 //função que prepara o espaço que acontecerá o jogo
 function setup() {
   createCanvas(800, 600).parent("jogo");
+  frameRate(60);
 }
 
 //função que define o que acontecerá se alguma tecla(específica ou não) for pressionada
