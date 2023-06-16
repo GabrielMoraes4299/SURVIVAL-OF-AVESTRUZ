@@ -12,7 +12,7 @@ function executarJogo(){
         player.yInicial < cacto.yFinal &&
         player.yFinal > cacto.yInicial){
         
-        player.vida = 0;
+        pontos = 0;
         cacto = new Obstaculo();
     }
     textSize(20);
